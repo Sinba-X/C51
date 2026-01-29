@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  c51-dev:
+    build: .
+    image: c51_docker:v1.0
+    container_name: C51
+    tty: true
+    stdin_open: true
+    network_mode: "host"
+    ipc: host
+    volumes:
+      - /home/enoch/Docker/C51:/home/c51/Docker/C51
+    working_dir: /home/c51/Docker/C51
