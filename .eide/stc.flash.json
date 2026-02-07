@@ -1,0 +1,5 @@
+{
+    "port": "COM5",
+    "baud": 115200,
+    "eepromFile": null
+}

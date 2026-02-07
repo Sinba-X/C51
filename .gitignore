@@ -1,0 +1,59 @@
+# 编译输出
+build/
+*.obj
+*.o
+*.lst
+*.hex
+*.lnp
+*.map
+*.omf
+*.lib
+*.plg
+*.uvguix.*
+*.uvgui.*
+
+# EIDE和Keil生成的文件
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.omf
+*.plg
+*.rpt
+*.scvd
+*.sct
+*.Scr
+*.Uv2
+*.uvguix
+*.uvopt
+*.uvproj.bak
+
+# C51项目临时文件
+*.crf
+*.d
+*.axf
+*.tra
+*.dep
+*.__i
+*.crf
+*.lst
+
+# VSCode和Claude Code
+.claude/
+
+# Windows系统文件
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 日志文件
+*.log
+*.log.lock

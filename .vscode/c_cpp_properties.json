@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "C51",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Program Files (x86)/C51/INC/**"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}",
+            "compilerArgs": [
+                "-Wno-error"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "D:/Program Files (x86)/C51/INC"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
