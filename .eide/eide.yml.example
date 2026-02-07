@@ -1,3 +1,8 @@
+# EIDE 项目配置模板
+# 复制此文件为 eide.yml 后，修改以下内容以匹配你的环境：
+#   1. incList 中的 Keil C51 头文件路径
+#   2. uploadConfigMap 中的 python 路径和 COM 端口
+
 version: "4.1"
 name: lesson3_lesson3_1
 type: C51
@@ -22,7 +27,8 @@ targets:
     cppPreprocessAttrs:
       defineList: []
       incList:
-        - ../../../../Program Files (x86)/C51/INC
+        # >>> 修改为你本机的 Keil C51 安装路径 <<<
+        - C:/Keil_v5/C51/INC
       libList: []
     excludeList: []
     toolchain: Keil_C51
@@ -46,10 +52,12 @@ targets:
     uploadConfigMap:
       Custom:
         bin: ""
-        commandLine: '"D:\Program Files (x86)\python\python.exe" -m stcgal -p COM5 "${hexFile}"'
+        # >>> 修改 python 路径和 COM 端口 <<<
+        commandLine: '"python" -m stcgal -p COM5 "${hexFile}"'
         eraseChipCommand: ""
       stcgal:
-        bin: D:\Program Files (x86)\python\python.exe
+        # >>> 修改为你本机的 python 路径 <<<
+        bin: python
         eepromImgPath: "null"
         extraOptions: -m stcgal
         options: .eide/stc.flash.json

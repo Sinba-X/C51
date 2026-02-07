@@ -43,6 +43,11 @@ build/
 
 # VSCode和Claude Code
 .claude/
+.vscode/c_cpp_properties.json
+
+# EIDE 机器特定配置
+.eide/eide.yml
+.eide/stc.flash.json
 
 # Windows系统文件
 Thumbs.db

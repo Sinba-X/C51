@@ -4,7 +4,7 @@
             "name": "C51",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:/Program Files (x86)/C51/INC/**"
+                "${env:KEIL_C51_DIR}/INC/**"
             ],
             "defines": [
                 "__C51__",
@@ -39,7 +39,7 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "D:/Program Files (x86)/C51/INC"
+                    "${env:KEIL_C51_DIR}/INC"
                 ],
                 "limitSymbolsToIncludedHeaders": false,
                 "databaseFilename": ""
